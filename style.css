@@ -7,7 +7,21 @@
 body{
     font-family: 'popins',sans-serif;
 }
-h1 h2 {
+/* header {
     font-family: sans-serif;
     font-weight: 400;
+} */
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+.contentflex_space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

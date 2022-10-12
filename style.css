@@ -1,4 +1,4 @@
-/* @import url()  */
+@import url('https://fonts.googleapis.com/') 
 *{
     padding: 0;
     margin: 0;
@@ -7,21 +7,137 @@
 body{
     font-family: 'popins',sans-serif;
 }
-/* header {
+header {
     font-family: sans-serif;
     font-weight: 400;
-} */
+}
+.navlinks{
+    position: relative;
+    top: auto;
+    margin-left: auto;
+}
+.navbar{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    border-left: 0px;
+    border-right: ;
+}
 a {
     text-decoration: none;
 }
 li {
     list-style: none;
 }
-.flex {
+.flex_space{
     display: flex;
-}
-.contentflex_space{
-    display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
 }
+button {
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.primary-btn {
+    padding: 15px 40px;
+    background: #7fc142;
+    font-weight: bold;
+    color: white;
+}
+.secondary-btn {
+    padding: 15px 40px;
+    background: none;
+    border: 2px solid white;
+    font-weight: bold;
+    color: white;
+}
+.container {
+    max-width: 85%;
+    margin: auto;
+
+}
+header{
+    height: 10vh;
+    line-height: 10vh;
+    padding: 0 20px;
+
+}
+header img{
+    margin: 20px 0;
+
+}
+header ul{
+display: inline-block;
+}
+header ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+header ul li a{
+    color: #000;
+    margin: 0 10px;
+
+}
+header ul li a:hover {
+    color: #7fc142;
+
+}
+header i{
+    margin: 0 20px;
+
+}
+header button {
+    padding: 13px 40px;
+}
+header .navlinks span{
+    display: none;
+}
+@media only screen  and (max-width: 768px){
+    header ul {
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #009f7f;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 9;
+    }
+    header ul li{
+        display: block;
+    }
+    header ul li a{
+        color: whitesmoke;
+    }
+    header i{
+        color: white;
+    }
+    header .navlinks span {
+        color: #000;
+        display: block;
+        cursor: pointer;
+        line-height: 10vh;
+        font-size: 25px;
+    }
+
+}
+.item img{
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+
+
+}
+    

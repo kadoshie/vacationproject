@@ -456,3 +456,116 @@ cursor: pointer;
 .services .box:hover h3{
   color: #fff;
 }
+/* Customer */
+.Customer{
+  background-image: url("images/customer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+} .Customer .container{
+  max-width: 70%;
+}
+.Customer .item{
+  padding: 10% 0;
+}
+.Customer i{
+  width: 100px;
+  height: 100px;
+  background: rgba(126,193,65,0.57);
+  line-height: 100px;
+  border-radius: 50%;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.Customer p{
+  line-height: 30px;
+  font-weight: 400;
+}
+.Customer h3{
+  margin-top: 20px;
+  color: #7fc142;
+}
+.Customer span{
+  font-size: 15px;
+}
+.owl-carousel2 .owl-dots{
+  position: absolute;
+  bottom: 70px;
+  left: 46.6%;
+}
+.owl-carousel2 .owl-dots i{
+  color: #7fc142;
+}
+.owl-carousel2 .owl-dots i:hover button{
+  color: #7fc142 !important;
+}
+.owl-carousel2 span {
+border: 2px solid whitesmoke;
+background: transparent !important;
+}
+.owl-carousel2 .active span{
+background: #7fc142 !important;
+border: 2px solid #7fc142;
+}
+/* News */
+.News{
+  position: relative;
+}
+.News i{
+  color: #7fc142;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.News label{
+margin-top: 12px;
+margin-right: 20px;
+color: #000;
+}
+.News p{
+  color: #000;
+}
+.News .left{
+  padding: 30px 0;
+  width: 65%;
+}
+.News h2{
+  color: #000;
+}
+/* newsletter */
+.space h1{
+   color: #000;
+}
+.newsletter{
+  position: relative;
+}
+.newsletter .space{
+  background: #7fc142;
+  padding: 40px 30px;
+  position: absolute;
+  top: -70px;
+  left: 8%;
+  width: 100%;
+}
+.newsletter h1{
+  width: 100%;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10px;
+}
+.newsletter input{
+  padding: 20px;
+}
+.newsletter input:nth-last-child(2){
+width: 80%;
+background: rgba(255, 255, 255, 0.4,);
+}
+.newsletter input:nth-last-child(1){
+  margin-left: 20px;
+  width: 30%;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}

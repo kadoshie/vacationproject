@@ -347,13 +347,13 @@ h1 {
   width: 100;
   height: 100%;
 }
-.gallery h1{
+.sele h1{
  color: #000;
 }
-.gallery h2{
+.sele h2{
   color: #000;
 }
-.gallery p{
+.sele p{
   color: #000;
 }
 .gallery .img {
@@ -377,4 +377,82 @@ h1 {
   left: 25%;
   z-index: 3;
   text-align: center;
+  color: whitesmoke;
+  /* opacity: 0; */
+  transition: 0.5s;
+  
+}
+.gallery span{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid white;
+}
+.overlay h3{
+  margin-top: 20px;
+  font-weight: 500;
+}
+.items:hover .overlay,
+.items:hover .img::after {
+opacity: 1;
+cursor: pointer;
+
+}
+.gallery .owl-nav .owl-prev{
+  left:85%;
+
+}
+.gallery .owl-nav .owl-next{
+  right:5%;
+}
+.gallery .owl-nav .owl-next,
+.gallery .owl-nav .owl-prev{
+  top: -40%;
+}
+/* services */
+.services{
+  position: relative;
+}
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:30px;
+}
+.services .left{
+  padding: 30px 0;
+}
+.services .box{
+  border: 1px solid rgba(0, 0, 0, 0, 5);
+  text-align: center;
+  transition: 0.5s;
+  padding: 20px;
+}
+.services .box .text{
+  padding: 30px 0;
+  border: 1px dashed #fff;
+}
+.services i{
+   font-size: 50px;
+   color: #7fc142;
+   transition: 0.5s;
+}
+.services h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20p;
+  transition: 0.5s;
+}
+.services img{
+  width: 100%;
+  height: 100%;
+}
+.services .box:hover{
+  background: #7fc142;
+  color: white;
+  cursor: pointer;
+}
+.services .box:hover i,
+.services .box:hover h3{
+  color: #fff;
 }

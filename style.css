@@ -618,3 +618,8 @@ footer label{
     height: 50vh;
   }
 }
+.copy{
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 400;
+}

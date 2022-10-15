@@ -1,6 +1,5 @@
 var menulist = document.getElementById('menulist')
 // Variables definition
-
 let userForm,
   userData = [];
 // Function to find Pizza Price based on size

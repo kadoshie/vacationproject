@@ -5,8 +5,8 @@ I'ts a web application that w# Name of the Project
 RUTH SELEINA 
 15/10/2022
  ## Project Description
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ This is a project to help people find their favoured scenery and go have a vacation with friends and family.It is a place you can go and 
+ Spend quality time with friends and family.Learn new fun activities. Earn money (garage sale, lemonade stand, private tutoring, part time jobs, etc.)
  ******
  -link 1
  ## SCRE![Screenshot from 2022-10-15 13-38-51](https://user-images.githubusercontent.com/111879128/195982579-4a42c5fd-8014-461b-a166-6d9917b1df0b.png)
